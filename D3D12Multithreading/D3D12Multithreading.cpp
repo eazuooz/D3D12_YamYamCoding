@@ -106,6 +106,7 @@ void D3D12Multithreading::RestoreD3DResources()
     {
         // Do nothing, currently attached adapter is unresponsive.
     }
+    
     ReleaseD3DResources();
     OnInit();
 }

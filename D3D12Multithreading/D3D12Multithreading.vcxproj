@@ -146,6 +146,9 @@
   <ItemGroup>
     <None Include="packages.config" />
   </ItemGroup>
+  <ItemGroup>
+    <FxCompile Include="triangleShaders.hlsl" />
+  </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
     <Import Project="$(SolutionDir)packages\WinPixEventRuntime.1.0.161208001\build\WinPixEventRuntime.targets" Condition="Exists('$(SolutionDir)packages\WinPixEventRuntime.1.0.161208001\build\WinPixEventRuntime.targets')" />
